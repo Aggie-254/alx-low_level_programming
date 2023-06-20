@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
+ *Description:'prints _putchar to stdout'
+ * Return: Always 0
  */
 
 int main(void)
