@@ -1,15 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
 
 /**
  *create_array - Creates an array of chars and initialize it to
  *a spefic char
- *@size: size of array.
- *@c:character to create array for.
- *Return: returns NULL if size = 0 or pointer to the array if malloc fails.
+ *@size: Size of the memory
+ *@c: Char in the array
+ *Return: NULL if size = 0 or if it fails,pointer to the array on success
  */
 
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 unsigned int i;
 char *arr = (char *)malloc(size * sizeof(char));
